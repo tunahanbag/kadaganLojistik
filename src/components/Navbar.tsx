@@ -30,7 +30,7 @@ export default function Navbar() {
                 <img
                   src={companyLogo}
                   alt="Company Logo"
-                  className="h-19 w-40"
+                  className="h-21 w-44"
                 />
               </Link>
             </Link>
