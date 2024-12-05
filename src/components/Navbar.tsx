@@ -32,9 +32,6 @@ export default function Navbar() {
                   alt="Company Logo"
                   className="h-19 w-40"
                 />
-                <span className="text-xl font-bold text-gray-800">
-                  Kadağan Lojistik
-                </span>
               </Link>
             </Link>
           </motion.div>
