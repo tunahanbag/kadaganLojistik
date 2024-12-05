@@ -66,9 +66,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold mb-1">Çalışma Saatleri</h3>
                   <p className="text-gray-600">
-                    Pazartesi - Cumartesi: 09:00 - 18:00
-                    <br />
-                    Pazar: Kapalı
+                    Pazartesi - Pazar: 08:00 - 23:00
                   </p>
                 </div>
               </div>
