@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import shipImage1 from "/shipImage.png";
-import shipImage2 from "/tir5.jpeg";
+import shipImage2 from "/tir4.jpeg";
 import shipImage3 from "/dockImage.png";
 import shipImage4 from "/tir3.jpeg";
 import shipImage5 from "/dockImage2.png";
-import shipImage6 from "/tir4.jpeg";
+import shipImage6 from "/tir5.jpeg";
 
 const images = [
   shipImage1,
