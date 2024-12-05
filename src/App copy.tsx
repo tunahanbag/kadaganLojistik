@@ -6,7 +6,6 @@ import ServicesPage from "./pages/ServicesPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton"; // Import the WhatsAppButton component
 
 function App() {
   return (
@@ -23,8 +22,6 @@ function App() {
         </main>
         <Footer />
       </div>
-      {/* Add the WhatsApp button outside of main content to appear on all pages */}
-      <WhatsAppButton />
     </Router>
   );
 }

@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src={companyLogo} alt="Company Logo" className="h-16 w-34" />
+              <img src={companyLogo} alt="Company Logo" className="h-28 w-57" />
             </div>
             <p className="text-gray-400">
               Güvenilir ve profesyonel lojistik çözümler.

@@ -7,6 +7,7 @@ import shipImage3 from "/dockImage.png";
 import shipImage4 from "/tir3.jpeg";
 import shipImage5 from "/dockImage2.png";
 import shipImage6 from "/tir5.jpeg";
+import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 
 const images = [
   shipImage1,
@@ -19,6 +20,7 @@ const images = [
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const navigate = useNavigate(); // Initialize the navigate function
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,6 +28,10 @@ export default function Hero() {
     }, 4000); // Change image every 4 seconds
     return () => clearInterval(interval);
   }, []);
+
+  const handleButtonClick = () => {
+    navigate("/iletisim"); // Navigate to the ContactPage when the button is clicked
+  };
 
   return (
     <div className="relative h-screen md:h-[600px] pt-16 overflow-hidden">
@@ -70,6 +76,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
+            onClick={handleButtonClick} // Add the click handler to navigate
           >
             <span>Hemen Teklif Alın</span>
             <ArrowRight className="w-5 h-5" />
